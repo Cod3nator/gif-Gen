@@ -1,0 +1,50 @@
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+.li {
+  text-align: center;
+  text-decoration: none;
+}
+.history, .input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+.card {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(50px); 
+}
+.card img{
+    object-fit: contain;
+}
